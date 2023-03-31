@@ -51,7 +51,7 @@ try :
     
     park= pd.read_sql(sql, conn)
     
-    # 기준년도 << 를 key 값으로 최신 데이터 필터링 해오기
+    # 기준년도를 key 값으로 최신 데이터 필터링 해오기
     # 만약 올해 데이터가 없으면 max 값으로 불러오기
     
     print('공원 데이터 로드 성공')
@@ -1921,4 +1921,3 @@ print(len(fac_ff.columns), len(cmf_fin.columns), len(trans_fin.columns), len(wal
 
 
 print('도시공원서비스 지표 스크립트 끝')
-
