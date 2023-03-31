@@ -266,4 +266,3 @@ try :
 except Exception as e:
     print('민원 def 만들기 실패')
     print(e)
-
